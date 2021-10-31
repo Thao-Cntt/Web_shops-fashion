@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --bg1: #f7922d;
+  --bg2: #5abec4;
+  --bg3: rgb(252, 175, 188);
+  --bg4: white;
+}
+
+header .header-logo {
+  background-image: url(../images/logo-backgroud/category-women.jpg);
+}
+
+#form-content-women {
+  display: inline-flex;
+  background-color: #fff;
+  text-align: left;
+}
+
+#main-menu {
+  float: left;
+  margin: 0 auto;
+}
+.title-menu {
+  width: 100%;
+  background-image: linear-gradient(to right, var(--bg4), rgb(250, 144, 162));
+  padding: 0.5em;
+  border-radius: 2px;
+}
+.main-list {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.list-content {
+  border: 1px solid pink;
+  color: #000;
+  padding: 0.5em;
+}
+.title-menu i {
+  position: relative;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.2em;
+  vertical-align: 5px;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+}
+.title-menu ion-icon {
+  color: pink;
+  font-size: 2em;
+}
+i {
+  color: #333;
+  font-size: 1em;
+  position: relative;
+  font-style: normal;
+  vertical-align: 0;
+  font-family: "Roboto", Times, serif;
+}
+ion-icon {
+  color: #000;
+  font-size: 1em;
+}
+.list-content:hover i {
+  color: #fff;
+}
+.list-content:hover {
+  background: pink;
+  box-shadow: 0 0 1px pink, 0 0 2px pink, 0 0 3px pink, 0 0 4px pink;
+}
+.list-content:hover ion-icon {
+  color: #fff;
+}

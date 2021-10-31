@@ -1,0 +1,57 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+section {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg1: #9c59b685;
+  --bg2: #3498dbb7;
+  --bg3: #5fbee4;
+  --bg4: #d3f3f8;
+  --bg5: #1db5c9;
+}
+div.form-menu {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(106, 153, 224);
+}
+div.form-menu .nav-tabs {
+  display: block;
+  list-style: none;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  text-align: center;
+}
+.nav-tabs li {
+  display: inline-block;
+  margin-inline-start: 0;
+  height: 35px;
+  width: 200px;
+  margin-left: -5px;
+  text-align: center;
+}
+.nav li.form-border {
+  border-right: 1px solid #fff;
+}
+.nav li a {
+  color: #fff;
+  padding: 3px 20px 0 20px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.5;
+  vertical-align: -8px;
+}
+.nav li a:hover {
+  opacity: 1;
+}
+
+div.form-menu nav ul li:hover {
+  background: #88d1ee;
+  box-shadow: 0 0 5px #5fbee4, 0 0 10px #5fbee4, 0 0 15px #5fbee4,
+    0 0 20px #5fbee4;
+}
